@@ -1,0 +1,43 @@
+# Core ML/AI Dependencies
+tensorflow==2.16.1
+opencv-python==4.9.0.80
+numpy==1.24.3
+Pillow==10.3.0
+scipy==1.10.1
+
+# Web Application
+streamlit==1.35.0
+
+# Production Server
+gunicorn==21.2.0
+waitress==3.0.0
+
+# Monitoring & Logging
+prometheus-client==0.19.0
+structlog==24.1.0
+
+# Security & Validation
+cryptography==42.0.7
+pydantic==2.7.1
+
+# Performance & Caching
+redis==5.0.4
+memory-profiler==0.61.0
+
+# Data Processing
+pandas==2.2.2
+matplotlib==3.8.4
+
+# Development & Testing (optional in prod)
+pytest==8.2.0
+pytest-cov==5.0.0
+black==24.4.2
+flake8==7.0.0
+
+# Environment Management
+python-dotenv==1.0.1
+
+# API & Rate Limiting
+fastapi==0.111.0
+uvicorn==0.29.0
+slowapi==0.1.9
